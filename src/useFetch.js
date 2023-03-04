@@ -22,7 +22,7 @@ const useFetch = (urlParams) => {
     } catch (error) {
       console.log(error);
     }
-  };
+  }; 
 
   useEffect(() => {
     fetchMovies(`${API_ENDPOINT}${urlParams}`);
