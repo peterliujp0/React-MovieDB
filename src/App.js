@@ -6,6 +6,7 @@ import Movie from "./SingleMovie";
 
 function App() {
   return (
+    // react-router-dom@6
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="movies/:id" element={<Movie />} />
