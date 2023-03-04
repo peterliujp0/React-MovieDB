@@ -13,3 +13,5 @@ In this project, react router dom version 6 is used so be sure to install this.
 npm install react-router-dom@6
 ```
 
+note that .env file used for API key is hidden
+
