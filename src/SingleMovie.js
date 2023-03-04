@@ -15,7 +15,7 @@ const SingleMovie = () => {
       <div className="page-error">
         <h1>{error.msg}</h1>
         <Link to="/" className="btn">
-          back to movies
+          back to movies 
         </Link>
       </div>
     );
